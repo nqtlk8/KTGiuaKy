@@ -10,17 +10,36 @@ using System.Windows.Forms;
 
 namespace KTGiuaKy
 {
-    public partial class Form1 : Form
+    public partial class fLogin : Form
     {
-        public Form1()
+        public fLogin()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            Auth.getuser( "a");
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (txtAcc == Accout && txtPass == Password)
+            {
+
+            }
+            else
+            {
+                if ()
+                {
+                    Checking checking = new Checking();
+                }
+                else()
+                {
+                    Saving saving = new Saving();
+                }
+            }
         }
     }
 }
